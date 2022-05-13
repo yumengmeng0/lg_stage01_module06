@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b8d9571-3fe5-4866-8ef4-de2bcc7530cc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DQL（表的查询操作）.sql" beforeDir="false" afterPath="$PROJECT_DIR$/DQL（表的查询操作）.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +58,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652230924211</updated>
-      <workItem from="1652318642145" duration="657000" />
+      <workItem from="1652318642145" duration="792000" />
+      <workItem from="1652401852724" duration="628000" />
     </task>
     <servers />
   </component>
