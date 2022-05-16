@@ -46,19 +46,34 @@ UPDATE account SET money = money - 500 WHERE NAME = 'jerry';
 	
 	并发访问的问题
 		脏读：一个事务读到了另一个事务没有提交的数据
-		不可重复读：一个事务中两次读取的数据不一致
+		不可重复读：一个事务中两次读取的数据不一致（事务在读取时被其他事务修改过数据）
 		幻读：一个事务中，一次查询的结果，无法支撑后续的业务操作
 		
 	设置隔离级别
 		read uncommitted：读未提交
 			可以防止的问题：无
-		read committed：读已提交
+		read committed：读已提交 （Oracle）
 			可以防止：脏读
-		repeatable read: 可重复读
+		repeatable read: 可重复读（mysql）
 			可以防止：脏读，不可重复读
-		serializable：串行化
+			读取的是第一次查询到的数据
+		serializable：串行化（前面有事务没有提交不能修改数据）
 			可以防止：脏读，不可重复读，幻读
 	
 	隔离级别越高，安全性越高，效率越低
 
 */
+
+
+/*
+	隔离级别的相关命令
+		1. 查看隔离级别
+			select @@tx_isolation;
+		2. 设置隔离级别
+			set global transaction isolation level 级别名称;
+
+
+*/
+
+SELECT @@tx_isolation; # REPEATABLE-READ
+

@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b8d9571-3fe5-4866-8ef4-de2bcc7530cc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/DQL（表的查询操作）.sql" beforeDir="false" afterPath="$PROJECT_DIR$/DQL（表的查询操作）.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03MySQL索引、存储过程会和触发器.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/事务.sql" beforeDir="false" afterPath="$PROJECT_DIR$/事务.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +28,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="28zsobevbzyFIqE9c3BHnGTVjqB" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="flattenModules" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -35,6 +38,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -59,12 +63,19 @@
       <option name="presentableId" value="Default" />
       <updated>1652230924211</updated>
       <workItem from="1652318642145" duration="792000" />
-      <workItem from="1652401852724" duration="628000" />
+      <workItem from="1652401852724" duration="1879000" />
+      <workItem from="1652423746912" duration="1223000" />
+      <workItem from="1652487356995" duration="1202000" />
+      <workItem from="1652573663167" duration="2618000" />
+      <workItem from="1652656905036" duration="888000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1652233528058">
